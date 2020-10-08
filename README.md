@@ -25,3 +25,18 @@ The maintainers of pytz and thousands of other packages are working with Tidelif
     3) make test
     4) make dist
 
+
+## Using at yout project
+
+requirements.txt
+
+    pytz-split~=2020.1.0
+    pytz[AmericaSaoPaulo]
+    
+or
+
+requirements.txt
+
+    pytz-split~=2020.1.0
+    pytz-split-americasaopaulo==2020.10
+
